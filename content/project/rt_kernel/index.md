@@ -1,11 +1,11 @@
 ---
 title: Projects in Robot Team
 date: 2018-05-04T08:58:25.233Z
-summary: Robot for grasping, storing, and stacking building blocks.
+summary: Detection and localization
 draft: false
 featured: true
 authors:
-  - Detection and localization(2018~2019)
+  - Embedded and algorithm development(2018~2019)
 show_date: false
 tags:
   - robots_control
