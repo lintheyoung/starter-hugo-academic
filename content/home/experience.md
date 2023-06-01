@@ -22,17 +22,19 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Undergraduate Researcher
-    company: UC Berkeley Hybrid Robotics Group (Prof. Koushil Sreenath)
+  - title: Startup Collaborato
+    company: Shanyue Information Technology Co., Ltd. in Guangzhou City.
     company_url: 'https://www.wzhanglab.site/'
     company_logo: ''
-    location: Online
+    location: Gaungzhou
     date_start: '2022-07-01'
-    date_end: 
+    date_end:
     description: |2-
         Responsibilities include:
 
-        * Development of MPC with obstacle avoidance for the quadruped robot.
+        * Complete the design of the robot's hardware and software.
+        * By employing outstanding software development, the studio ensures sufficient market competitiveness while utilizing equivalent hardware for its robots.
+        * Implementation and realization of dynamic visual design and perception detection for interactive art projects.
 
   - title: Undergraduate Researcher
     company: SUSTech CLEAR Lab (Prof. Wei Zhang)
