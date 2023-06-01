@@ -21,7 +21,7 @@ marketing:
     description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
     twitter: 'wowchemy'
   analytics:
-    google_analytics: ''
+    google_analytics: 'UA-108876494-1'
     baidu_tongji: ''
   verification:
     google: ''
@@ -39,11 +39,9 @@ header:
     show_search: true
     highlight_active_link: true
 
-# Site footer
-
 footer:
   copyright:
-    notice: '© {2023} Deyang.'
+    notice: '© {2022} Qiayuan.'
     license:
       enable: true
       allow_derivatives: false
@@ -101,13 +99,10 @@ features:
 
 extensions:
   cms:
-    branch: main
+    branch: master
     local_backend: false
+  isotope:
+    # Enable if you use the Portfolio widget or Publication filter
+    enable: true
   academicons:
     enable: true
-
-# Security
-
-security:
-  # Allow frame for embedding speaker notes in slides
-  allow_frame: true
