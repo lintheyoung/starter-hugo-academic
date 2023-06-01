@@ -22,9 +22,9 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Startup Collaborator
+  - title: Co-founder of the studio
     company: Shanyue Information Technology Co., Ltd. in Guangzhou City.
-    company_url: 'https://www.wzhanglab.site/'
+    company_url: 'https://www.dedemaker.com/'
     company_logo: ''
     location: Gaungzhou
     date_start: '2022-07-01'
