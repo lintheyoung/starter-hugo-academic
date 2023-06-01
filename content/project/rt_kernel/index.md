@@ -1,14 +1,14 @@
 ---
-title: Block-grasping robot
+title: Projects in Robot Team
 date: 2018-05-04T08:58:25.233Z
 summary: Robot for grasping, storing, and stacking building blocks.
 draft: false
 featured: true
 authors:
-  - Captain and an Embedded developer(2018)
+  - Detection and localization(2018~2019)
 show_date: false
 tags:
-  - legged_robots
+  - robots_control
 # links:
 #   - url: https://github.com/qiayuanliao/OpenMGSLS
 #     name: Source
