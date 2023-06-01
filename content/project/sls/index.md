@@ -14,7 +14,7 @@ show_date: false
 #     icon_pack: fab
 #     icon: github
 image:
-  filename: robomaster_3.png
+  filename: featured.png
   focal_point: Top
   preview_only: true
 ---
