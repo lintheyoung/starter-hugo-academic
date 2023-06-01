@@ -1,84 +1,36 @@
 ---
-# Display name
-title: Alice Wu 吳恩達
-
-# Full name (for SEO)
-first_name: Alice
-last_name: Wu
-
-# Status emoji
-status:
-  icon: ☕️
-
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position/tagline
-role: Professor of Artificial Intelligence
-
-# Organizations/Affiliations to show in About widget
-organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
-# Interests to show in About widget
+title: Deyang Lin
+role: First-year graduate student/Startup founder
+bio: My academic research primarily focuses on point cloud perception, while the current direction of the studio mainly involves the design and development of educational robots, as well as the implementation of interactive art with dynamic interactions.
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
-
-# Education to show in About widget
-education:
-  courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
-
-# Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+  - Point Cloud Perception
+  - Control Theory And Implementation
+  - Robot Design
+  - Entrepreneurship
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: /#contact
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
-
-# Highlight the author in author lists? (true/false)
+    link: https://github.com/lintheyoung
+organizations:
+  - name: Dedemaker Studio
+    url: "https://www.dedemaker.com/"
+education:
+  courses:
+    - course: B.E. in Automation
+      institution: Guangdong University of Technology
+      year: 2022
+    - course: The current graduate student in the field of Mechanical and Aerospace Engineering, but took a leave of absence to start a startup.
+      institution: Jilin University
+      year: 2022
+email: me@ldylab.cc
+superuser: true
 highlight_name: true
 ---
+Deyang Lin is an enrolled graduate student at Jilin University. He is currently on a leave of absence to co-found a robotics studio with his friends, primarily dedicated to designing robots for educational purposes and competitions. Within the studio, he assumes the role of a versatile robotics design engineer, exhibiting an unwavering passion for robotics. He possesses the ability to independently conceptualize, construct, and control the hardware and software systems of complex robots. Simultaneously, he ensures that the studio's products maintain a competitive edge in the market, both in terms of performance and pricing.
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+Academically, his research endeavors predominantly revolve around the field of point cloud perception. Presently, he is diligently striving to overcome the challenges associated with fusing perception from 2D images and 3D point clouds, thereby propelling the prospects of practical implementation of point cloud perception.
+
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/qiayuan_cv.pdf" "newtab" >}}Curriculum Vitae{{< /staticref >}}.
