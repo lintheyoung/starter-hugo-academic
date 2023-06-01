@@ -16,24 +16,24 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-  - name: Mechanic
+  - name: Mechanic & EDA
     icon_pack: fas
     icon: wrench
-    description: Fusion360, Solidwork, CNC, 3D Print
-  - name: Control
+    description: Fusion360, CNC, 3D Print, LCEDA
+  - name: Control & Perception
     icon_pack: fas
     icon: microchip
     description: TO, NMPC, MPC, TVLQR, PID, Kalman Filter, ROS, Gazebo
   - name: Tools
     icon_pack: fas
     icon: toolbox
-    description: C++, Python, Git, LaTeX, OpenCV
+    description: C++, Python, Git, LaTeX, Unity
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"
 #  name: "Emojiness"
-#  description: "100%"  
+#  description: "100%"
 
 # Uncomment to use custom SVG icons.
 # Place your custom SVG icon in `assets/media/icons/`.

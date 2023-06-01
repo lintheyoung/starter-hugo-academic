@@ -6,21 +6,34 @@ summary: A desktop open source Selective‑Laser‑Sintering 3D printer using mi
 draft: false
 featured: true
 authors:
-  - Independently
+  - Captain and an Embedded developer(2018)
 show_date: false
-links:
-  - url: https://github.com/qiayuanliao/OpenMGSLS
-    name: Source
-    icon_pack: fab
-    icon: github
+# links:
+#   - url: https://github.com/qiayuanliao/OpenMGSLS
+#     name: Source
+#     icon_pack: fab
+#     icon: github
 image:
-  filename: featured.png
+  filename: robomaster_3.png
   focal_point: Top
   preview_only: true
 ---
-# Motivation
+# Project Introduction
 
-I used to be a 3D printing enthusiast; I reproduced some open-source FDM printers like kossel in middle school and realized the limitations of FDM 3D printers. I learned that SLS is a high-precision 3D printing method and can even print metal. 
+
+In 2018, during the DJI High School Summer Camp, I served as the team captain and was primarily responsible for embedded development. Our main task during the camp was to design and manufacture a robot capable of grasping, storing, and stacking building blocks. In the project, my responsibilities included:
+
+- Coordinating and communicating with the structure, embedded systems, and algorithm teams to drive overall progress and resolve coordination issues.
+- In the embedded systems part, I completed the kinematic analysis and actual control of the two-link mechanical arm. This involved controlling the arm's gripping mechanism based on STM32 and CAN to control the 3508 motors for the chassis and the 6002 gimbal motor. I also implemented material detection and control for material ejection.
+- Designing the communication protocol between the embedded system and the PC, which primarily focused on transmitting block corner position information for optimized grasping to the PC using serial communication and JSON protocol.
+
+![](robomaster_0.png "Overall robot solution design")
+
+![](robomaster_1.png "Design and fabrication of the robot")
+
+![](robomaster_2.png "Real-world testing of the robot")
+
+<!-- I used to be a 3D printing enthusiast; I reproduced some open-source FDM printers like kossel in middle school and realized the limitations of FDM 3D printers. I learned that SLS is a high-precision 3D printing method and can even print metal.
 
 ![](sls0.jpg "Selective laser sintering process")
 
@@ -69,4 +82,4 @@ A printing process and small chain videos are shown below.
 {{< youtube _YU2mZR_pDs >}}
 
 
-The printer can print complex structures without support, but the printing of large-scale parts is differential due to preheating the powder uniformly before sintering is very difficult.
+The printer can print complex structures without support, but the printing of large-scale parts is differential due to preheating the powder uniformly before sintering is very difficult. -->
