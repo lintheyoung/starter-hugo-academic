@@ -81,7 +81,7 @@ experience:
         Under my father's influence, I developed a keen interest in mechanical and electrical design, and my self-taught nature from a young age allowed me to independently complete the following projects:
         * (Middle school)Constructed a crane that can be controlled using a joystick remote. This Arduino-based project earned me a second prize on the Geekfans website.
         * (High school)Designed a device that can securely attach multiple infrared detection probes to the underside of a vehicle. This device is used to detect animals underneath the vehicle, and it wirelessly consolidates the detection signals, transmitting them to an onboard receiving and display device. The project received a third prize in the provincial youth science and technology competition.
-        * (High school)Designed a helmet to detect whether the driver is wearing it properly while driving. If the helmet is not worn correctly, it emits an alarm or disables the vehicle's ignition button. This project received a third prize in the provincial youth science and technology competition.
+        * (High school)Designed a helmet to detect whether the driver is wearing it properly while driving. If the helmet is not worn correctly, it emits an alarm or disables the vehicle's ignition button. This project received a second prize in the provincial youth science and technology competition.
 
 design:
   columns: '1'

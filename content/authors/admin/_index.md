@@ -1,6 +1,6 @@
 ---
 title: Deyang Lin
-role: First-year graduate student/Startup founder
+role: First-year graduate student/Startup co-founder
 bio: My academic research primarily focuses on point cloud perception, while the current direction of the studio mainly involves the design and development of educational robots, as well as the implementation of interactive art with dynamic interactions.
 interests:
   - Point Cloud Perception

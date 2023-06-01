@@ -27,12 +27,12 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: RoboMaster
-    tag: robomaster
-  - name: Legged Robots
-    tag: legged_robots
-  - name: Optimal Control
-    tag: optimal_control
+  - name: Studio
+    tag: studio
+  - name: Robots Control
+    tag: robots_control
+  - name: Pose Estimation
+    tag: pose_estimation
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
