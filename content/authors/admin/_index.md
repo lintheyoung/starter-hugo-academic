@@ -33,4 +33,4 @@ Deyang Lin is an enrolled graduate student at Jilin University. He is currently 
 
 Academically, his research endeavors predominantly revolve around the field of point cloud perception. Presently, he is diligently striving to overcome the challenges associated with fusing perception from 2D images and 3D point clouds, thereby propelling the prospects of practical implementation of point cloud perception.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/qiayuan_cv.pdf" "newtab" >}}Curriculum Vitae{{< /staticref >}}.
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/qiayuan_cv.pdf" "newtab" >}}Curriculum Vitae{{< /staticref >}}. -->
