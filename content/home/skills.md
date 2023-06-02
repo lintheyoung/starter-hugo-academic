@@ -23,7 +23,7 @@ feature:
   - name: Control & Perception
     icon_pack: fas
     icon: microchip
-    description: TO, NMPC, MPC, TVLQR, PID, Kalman Filter, ROS, Gazebo
+    description: OpenPCDet, ROS, Gazebo, Pytorch
   - name: Tools
     icon_pack: fas
     icon: toolbox
