@@ -32,7 +32,5 @@ In 2018, during the DJI High School Summer Camp, I served as the team captain an
 ![](robomaster_2.png "Real-world testing of the robot")
 
 
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-    <iframe src="//player.bilibili.com/player.html?aid=784290427&bvid=BV1724y1P7Y1&cid=1149185231&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe>
-</div>
+
 
