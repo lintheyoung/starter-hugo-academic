@@ -5,7 +5,7 @@ summary: Modeling, control, and implementation
 draft: false
 featured: true
 authors:
-  - Embedded and algorithm development(2020)
+  - Embedded and algorithm development(2021)
 show_date: false
 tags:
   - robots_control

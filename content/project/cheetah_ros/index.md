@@ -5,7 +5,7 @@ summary: Design and implementation of pose estimation and point cloud algorithms
 draft: false
 featured: true
 authors:
-  - Algorithm development(2020)
+  - Algorithm development(2022)
 show_date: false
 tags:
   - pose_estimation
