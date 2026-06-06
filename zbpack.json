@@ -1,5 +1,7 @@
 {
   "$schema": "https://schema.zeabur.app/zbpack.json",
-  "build_command": "hugo --gc --minify",
-  "output_dir": "public"
+  "plan_type": "docker",
+  "dockerfile": {
+    "path": "Dockerfile"
+  }
 }
