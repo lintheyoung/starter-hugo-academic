@@ -34,14 +34,14 @@ header:
     enable: true
     align: l
     show_logo: true
-    show_language: false
+    show_language: true
     show_day_night: true
     show_search: true
     highlight_active_link: true
 
 footer:
   copyright:
-    notice: '© {2023} Deyang.'
+    notice: '© {2026} Deyang.'
     license:
       enable: true
       allow_derivatives: false

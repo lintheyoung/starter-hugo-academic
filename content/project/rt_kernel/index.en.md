@@ -1,6 +1,7 @@
 ---
 title: Projects in Robot Team
 date: 2018-05-04T08:58:25.233Z
+weight: 50
 summary: Detection and localization
 draft: false
 featured: true

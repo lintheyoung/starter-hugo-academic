@@ -1,6 +1,7 @@
 ---
 title: Block-grasping robot
 date: 2018-05-04T08:58:25.233Z
+weight: 60
 summary: Robot for grasping, storing, and stacking building blocks.
 draft: false
 featured: true
@@ -30,7 +31,4 @@ In 2018, during the DJI High School Summer Camp, I served as the team captain an
 ![](robomaster_1.png "Design and fabrication of the robot")
 
 ![](robomaster_2.png "Real-world testing of the robot")
-
-
-
 

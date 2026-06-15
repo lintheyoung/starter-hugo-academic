@@ -1,6 +1,7 @@
 ---
-title: Pose estimation and point cloud perception
+title: Pose estimation and point cloud perception (undergraduate thesis + Jilin University lab)
 date: 2018-05-04T08:58:25.233Z
+weight: 30
 summary: Design and implementation of pose estimation and point cloud algorithms
 draft: false
 featured: true
@@ -19,7 +20,7 @@ image:
   focal_point: Top
   preview_only: true
 ---
-# Pose estimation and point cloud perception
+# Pose estimation and point cloud perception (undergraduate thesis + Jilin University lab)
 ## Pose estimation
 
 My undergraduate thesis focused on the estimation of object poses. I input RGB images and the 3D models of the detected objects, mapping the 2D image pixels to the 3D point cloud of the model. Based on this, I utilized PnP (Perspective-n-Point) and RANSAC algorithms to regress the pose and achieve object pose recognition. Additionally, this approach incorporated a deep learning-based refinement algorithm to further improve the pose accuracy based on the initial pose estimation from PnP. Experimental results demonstrated that, compared to other related works, establishing the mapping relationship between the 2D plane and 3D space enabled higher accuracy in pose estimation.

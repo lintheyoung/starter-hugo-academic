@@ -1,6 +1,7 @@
 ---
-title: Robots in studio
+title: Robotics Studio (2022-present)
 date: 2018-05-04T08:58:25.233Z
+weight: 20
 summary: Since 2023, the studio has designed a series of new robots.
 draft: false
 featured: true
@@ -9,17 +10,20 @@ authors:
 show_date: false
 tags:
   - studio
+aliases:
+  - /en/project/rm_controls/
 # links:
 #   - url: https://github.com/qiayuanliao/OpenMGSLS
 #     name: Source
 #     icon_pack: fab
 #     icon: github
 image:
-  filename: featured.png
+  filename: featured.jpg
   focal_point: Top
   preview_only: true
 ---
-# Robots in studio
+# Robotics Studio (2022-present)
+
 ## What I have got in the past
 
 Since June 2022, I have co-founded a robot studio with friends in Guangzhou. The studio focuses on designing and teaching robotics solutions for secondary schools. In this studio, my primary responsibilities include the design, implementation, and teaching of comprehensive robot solutions (including structural design, with a personal focus on software design). Since 2023, the robots designed by the studio have won championships in competitions in cities such as Guangzhou, Foshan, Zhuhai, and Dongguan. We have delivered over 150 units to date.

@@ -1,0 +1,154 @@
+// Project detail pages: fixed table of contents.
+.article-project .project-page-layout {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.article-project .project-article-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.article-project .project-toc-sidebar {
+  display: none;
+}
+
+.article-project .project-toc-title {
+  color: #b5b5b5;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.article-project .project-toc-mobile {
+  margin: 0 0 1.5rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(127, 127, 127, 0.22);
+  border-radius: 8px;
+}
+
+.article-project .project-toc-mobile summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.article-project .project-toc-mobile #ProjectMobileTableOfContents {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(127, 127, 127, 0.16);
+}
+
+.article-project .project-toc-sticky #TableOfContents {
+  border-left: 0 !important;
+}
+
+.article-project .project-toc-sticky #TableOfContents ul {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.article-project .project-toc-sticky #TableOfContents ul ul {
+  padding-left: 0.65rem;
+  margin-top: 0.18rem;
+}
+
+.article-project .project-toc-sticky #TableOfContents li {
+  margin: 0 0 0.18rem;
+  line-height: 1.25;
+}
+
+.article-project .project-toc-sticky #TableOfContents a {
+  display: block;
+  color: #b5b5b5;
+  font-size: 0.66rem;
+  line-height: 1.25;
+  padding: 0 !important;
+}
+
+.article-project .project-toc-sticky #TableOfContents > ul > li {
+  margin-bottom: 0.42rem;
+}
+
+.article-project .project-toc-sticky #TableOfContents > ul > li > a {
+  color: #e8e8e8;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+@media (min-width: 1200px) {
+  .article-project {
+    --project-article-left: calc(50% - 380px + 106px);
+    --project-toc-gap: 40px;
+    --project-toc-width: 260px;
+  }
+
+  .article-project > .article-container.pt-3,
+  .article-project .project-page-layout {
+    max-width: 760px;
+    margin-left: var(--project-article-left);
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .article-project .project-toc-sidebar {
+    display: block;
+    min-width: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .article-project .project-toc-sticky {
+    position: fixed;
+    top: 90px;
+    left: calc(var(--project-article-left) - var(--project-toc-gap) - var(--project-toc-width));
+    width: var(--project-toc-width);
+    max-height: calc(100vh - 110px);
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: 0.25rem 0 1.5rem;
+  }
+
+  .article-project .project-toc-sticky::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (min-width: 1500px) {
+  .article-project {
+    --project-article-left: calc(50% - 380px + 88px);
+    --project-toc-gap: 48px;
+    --project-toc-width: 300px;
+  }
+}
+
+// Keep project cards in predictable row order instead of masonry column packing.
+#projects .projects-container.js-layout-masonry {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  height: auto !important;
+  overflow: visible;
+}
+
+#projects .projects-container.js-layout-masonry .project-card {
+  position: static !important;
+  inset: auto !important;
+  transform: none !important;
+  width: auto;
+  margin: 0;
+}
+
+@media screen and (max-width: 1199px) {
+  #projects .projects-container.js-layout-masonry {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #projects .projects-container.js-layout-masonry {
+    grid-template-columns: 1fr;
+  }
+}

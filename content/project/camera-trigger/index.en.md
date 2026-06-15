@@ -1,6 +1,7 @@
 ---
 title: Wheeled-legged hybrid robot
 date: 2018-05-04T08:58:25.233Z
+weight: 40
 summary: Modeling, control, and implementation
 draft: false
 featured: true

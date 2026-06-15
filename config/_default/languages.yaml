@@ -3,20 +3,36 @@
 #   Documentation: https://wowchemy.com/docs/guide/language/
 
 # Default language
+zh:
+  languageCode: zh-Hans
+  languageName: 中文
+  title: 林德旸
+  weight: 1
+  menu:
+    main:
+      - name: 主页
+        url: '#about'
+        weight: 10
+      - name: 项目
+        url: '#projects'
+        weight: 20
+      - name: 经历
+        url: '#experience'
+        weight: 40
+
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
-
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+  languageName: English
+  title: Deyang Lin
+  weight: 2
+  menu:
+    main:
+      - name: Home
+        url: '#about'
+        weight: 10
+      - name: Projects
+        url: '#projects'
+        weight: 20
+      - name: Experience
+        url: '#experience'
+        weight: 40

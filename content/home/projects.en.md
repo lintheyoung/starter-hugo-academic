@@ -29,6 +29,8 @@ content:
     tag: '*'
   - name: Studio
     tag: studio
+  - name: Startup
+    tag: startup
   - name: Robots Control
     tag: robots_control
   - name: Pose Estimation
