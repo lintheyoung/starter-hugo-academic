@@ -3,8 +3,8 @@ title: 这两周在做的一些事情
 date: 2026-06-15T00:00:00.000Z
 weight: 5
 summary: "围绕少视角动态 4DGS，记录从双手机同步采集、VGGT/GC-4DGS 魔改到虚拟机位补全的探索，同时整理同步拍摄 App 与机械臂工具链的阶段进展。"
-draft: false
-featured: true
+draft: true
+featured: false
 authors:
   - 4DGS / 多机同步拍摄 / 机械臂探索
 show_date: false

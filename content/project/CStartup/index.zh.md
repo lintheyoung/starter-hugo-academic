@@ -1,7 +1,7 @@
 ---
 title: 硬件 C 端 Pest Control 创业（2024～现在）
 date: 2024-04-01T00:00:00.000Z
-weight: 10
+weight: 5
 summary: "记录从 XbotPark Camp 后寻找新方向，到切入出海 Pest Control 场景、跟随消杀师傅做真实调研、验证 B 端原型，再转向 C 端智能硬件产品化与量产准备的过程。"
 draft: false
 featured: true

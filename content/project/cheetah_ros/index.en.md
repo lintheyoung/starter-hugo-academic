@@ -1,66 +1,62 @@
 ---
-title: Pose estimation and point cloud perception (undergraduate thesis + Jilin University lab)
+title: Pose estimation and point-cloud perception (undergraduate thesis + Jilin University lab)
 date: 2018-05-04T08:58:25.233Z
 weight: 30
-summary: Design and implementation of pose estimation and point cloud algorithms
+summary: Design and implementation of pose-estimation and point-cloud algorithms.
 draft: false
 featured: true
 authors:
-  - Algorithm development(2022)
+  - Algorithm development (2022)
 show_date: false
 tags:
   - pose_estimation
-# links:
-#   - url: https://github.com/qiayuanliao/OpenMGSLS
-#     name: Source
-#     icon_pack: fab
-#     icon: github
 image:
   filename: featured.png
   focal_point: Top
   preview_only: true
 ---
-# Pose estimation and point cloud perception (undergraduate thesis + Jilin University lab)
+# Pose estimation and point-cloud perception (undergraduate thesis + Jilin University lab)
+
 ## Pose estimation
 
-My undergraduate thesis focused on the estimation of object poses. I input RGB images and the 3D models of the detected objects, mapping the 2D image pixels to the 3D point cloud of the model. Based on this, I utilized PnP (Perspective-n-Point) and RANSAC algorithms to regress the pose and achieve object pose recognition. Additionally, this approach incorporated a deep learning-based refinement algorithm to further improve the pose accuracy based on the initial pose estimation from PnP. Experimental results demonstrated that, compared to other related works, establishing the mapping relationship between the 2D plane and 3D space enabled higher accuracy in pose estimation.
+My undergraduate thesis focused on object pose estimation. Taking an RGB image and the 3D model of the detected object as input, I mapped 2D image pixels onto the 3D point cloud of the model's surface. From that correspondence I regressed the object's pose using PnP (Perspective-n-Point) and RANSAC. The approach also pairs with a deep-learning refinement step that improves accuracy further once PnP has produced an initial pose. The experiments showed that establishing an explicit mapping between the 2D plane and 3D space yields more accurate pose estimates than the comparable methods.
 
-![](paper_1.png "Overall algorithm framework design")
+![](paper_1.png "Overall algorithm framework")
 
-![](paper_2.png "Creating a virtual dataset using randomly posed 3D models and COCO as the background")
+![](paper_2.png "Generating a synthetic dataset from randomly posed 3D models on COCO backgrounds")
 
 ![](paper_3.png "Dataset generation results")
 
 ![](paper_4.png "The principle of UV mapping")
 
-![](paper_5.png "Mapping relationship between UV mapping and surface points (point cloud) of an object")
+![](paper_5.png "The mapping between the UV map and the object's surface point cloud")
 
-![](paper_7.png "Design of UV map generation network")
+![](paper_7.png "Design of the UV map generation network")
 
-![](paper_6.png "Result of UV map generation")
+![](paper_6.png "UV map generation results")
 
-![](paper_8.png "Comparison between UV map generation results and calibration images")
+![](paper_8.png "UV map generation results compared against the calibrated images")
 
-![](paper_9.png "Comparison between generated point cloud results and calibrated point cloud")
+![](paper_9.png "Generated point cloud compared against the calibrated point cloud")
 
-![](paper_10.png "The overall approach of using RANSAC+PnP for initial pose regression of objects")
+![](paper_10.png "Overall approach: initial pose regression with RANSAC + PnP")
 
-![](paper_11.png "Design of a deep learning-based pose regression network")
+![](paper_11.png "Design of the deep-learning pose regression network")
 
 ![](paper_12.png "Pose recognition results")
 
+## Point-cloud perception
 
-## Point cloud perception
-During my senior year, I primarily focused on point cloud perception in the laboratory at Jilin University. I accomplished the data format conversion from the Livox dataset to the KITTI dataset. 
+In my senior year I worked mainly on point-cloud perception in the lab at Jilin University, starting with converting data from the Livox format into KITTI format.
 
 ![](livox_1.png "Data format conversion")
 
-Additionally, I successfully trained and implemented the PointPillars model using the Livox dataset for forward inference. 
+I then trained PointPillars on the Livox dataset and implemented forward inference.
 
-![](livox_2.png "Forward inference and recognition Result1")
-![](livox_3.png "Forward inference and recognition Result2")
+![](livox_2.png "Forward inference and recognition, result 1")
+![](livox_3.png "Forward inference and recognition, result 2")
 
-Through this experience, I gained knowledge of various methods for point cloud processing and became aware of their limitations. It also sparked my interest in exploring the fusion of point cloud and visual perception.
+The experience gave me a systematic view of point-cloud processing methods, and a much clearer sense of where purely point-cloud approaches fall short in real object recognition. That is what got me interested in fusing point-cloud and visual perception.
 
 ![](livox_4.png )
-![](livox_5.png "There is significant room for improvement in using purely point cloud-based methods for model recognition.")
+![](livox_5.png "Purely point-cloud methods still have obvious room for improvement in model recognition")

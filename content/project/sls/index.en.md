@@ -1,34 +1,28 @@
 ---
-title: Block-grasping robot
+title: Block-grasping robot (high school)
 date: 2018-05-04T08:58:25.233Z
 weight: 60
-summary: Robot for grasping, storing, and stacking building blocks.
+summary: A robot for grasping, storing and stacking building blocks.
 draft: false
 featured: true
 authors:
-  - Captain and an Embedded developer(2018)
+  - Team captain and embedded developer (2018)
 show_date: false
-# links:
-#   - url: https://github.com/qiayuanliao/OpenMGSLS
-#     name: Source
-#     icon_pack: fab
-#     icon: github
 image:
   filename: featured.png
   focal_point: Top
   preview_only: true
 ---
-# Project Introduction
+# About the project
 
-In 2018, during the DJI High School Summer Camp, I served as the team captain and was primarily responsible for embedded development. Our main task during the camp was to design and manufacture a robot capable of grasping, storing, and stacking building blocks. In the project, my responsibilities included:
+In 2018, at the DJI RoboMaster summer camp for high-school students, I served as team captain and was mainly responsible for embedded development. The camp's task was to design and build a robot capable of grasping, storing and stacking building blocks. My responsibilities were:
 
-- Coordinating and communicating with the structure, embedded systems, and algorithm teams to drive overall progress and resolve coordination issues.
-- In the embedded systems part, I completed the kinematic analysis and actual control of the two-link mechanical arm. This involved controlling the arm's gripping mechanism based on STM32 and CAN to control the 3508 motors for the chassis and the 6002 gimbal motor. I also implemented material detection and control for material ejection.
-- Designing the communication protocol between the embedded system and the PC, which primarily focused on transmitting block corner position information for optimized grasping to the PC using serial communication and JSON protocol.
+- Coordinating between the mechanical, embedded and algorithm groups, keeping overall progress moving and resolving problems as they came up.
+- On the embedded side, the kinematic analysis and actual control of a two-link arm — driving the chassis 3508 motors and the 6002 gimbal motor from an STM32 over CAN bus, and implementing block detection and dispensing control.
+- Designing the communication protocol between the embedded system and the PC, mainly sending block corner positions over serial in JSON so the PC could optimize the grasp.
 
 ![](robomaster_0.png "Overall robot solution design")
 
 ![](robomaster_1.png "Design and fabrication of the robot")
 
-![](robomaster_2.png "Real-world testing of the robot")
-
+![](robomaster_2.png "Testing the robot")

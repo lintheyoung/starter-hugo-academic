@@ -1,70 +1,64 @@
 ---
-title: Projects in Robot Team
+title: University robotics team projects (freshman & sophomore years)
 date: 2018-05-04T08:58:25.233Z
 weight: 50
-summary: Detection and localization
+summary: Detection, localization and vision recognition on the edge.
 draft: false
 featured: true
 authors:
-  - Embedded and algorithm development(2018~2019)
+  - Embedded and algorithm development (2018–2019)
 show_date: false
 tags:
   - robots_control
-# links:
-#   - url: https://github.com/qiayuanliao/OpenMGSLS
-#     name: Source
-#     icon_pack: fab
-#     icon: github
 image:
   filename: featured.png
   focal_point: Top
   preview_only: true
 ---
-# Several projects within the school robotics team
+# Projects on the university robotics team
 
-Since the beginning of my freshman year, I have joined the university's robotics team and continuously improved my engineering and algorithmic skills through participating in numerous competitions.
+I joined the university's robotics team in my freshman year and kept building up my engineering and algorithm skills across a series of competitions.
 
-## Design of a grayscale line tracking board
+## A grayscale line-following board
 
-We found that the robot is susceptible to external light interference (especially sunlight) when tracking outside of indoor environments. Therefore, I aim to construct a grayscale line tracking board that can resist external light disturbances.
+We found that robots following a line outdoors, or under complicated lighting, are easily disturbed by external light — sunlight above all. So I set out to design a line-following board that could reject external light interference.
 
-Design of a dynamic line tracking board resistant to external sunlight disturbances:
+The design of this dynamically sunlight-resistant board came down to:
 
-- Differential method is employed to dynamically turn off the board's own light source, measure the intensity of external light, and then turn on the self-illumination to obtain the reflection intensity. By subtracting these values, the actual reflection intensity of the internal light source can be obtained, thus reducing the impact of external light.
-- Dynamic calibration of the white line/black background threshold is achieved using the Otsu algorithm.
-- This project has been granted a national utility model patent and is currently being used in various robotics competitions within the team.
+- A differential method that dynamically switches the on-board light source off: first measure the ambient light level, then switch the emitter on to read the reflected intensity. Subtracting the two gives the true reflection produced by the on-board source, which suppresses the influence of external light.
+- Otsu's method to dynamically calibrate the threshold between the white line and the black background.
+- The project was granted a national utility model patent and has been in continuous use across the team's robotics competitions.
 
-![](xunjiban.png "The design of a grayscale line tracking board")
+![](xunjiban.png "Design of the grayscale line-following board")
 
-The performance of the line tracking board under actual external sunlight disturbances.
+How the board performs under real outdoor sunlight:
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
     <iframe src="//player.bilibili.com/player.html?aid=614342194&bvid=BV19h4y1s7Bo&cid=1149805523&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe>
 </div>
 
+## Short-range robot localization
 
-## Design and implementation of small-area robot localization
+This project implemented a localization algorithm built on encoder motors, a gyroscope and a laser rangefinder, fused with an Extended Kalman Filter. By folding in the encoder data, the robot achieves centimeter-level indoor localization at 50Hz even though the laser sensor only runs at 10Hz.
 
-Implementation and application of robot localization algorithm based on encoder motors, gyroscope, and laser rangefinder. EKF (Extended Kalman Filter) is used to fuse data from encoders, gyroscope, and laser rangefinder. By fusing the data with encoders, the robot achieves centimeter-level indoor localization at a frequency of 50Hz, even with the laser sensor operating at only 10Hz.
-
-Algorithm testing and visualization
+Algorithm testing and visualization:
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
     <iframe src="//player.bilibili.com/player.html?aid=614263283&bvid=BV1Jh4y1s7oK&cid=1149806142&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe>
 </div>
 
-The application of this localization algorithm in actual competitions
+The same localization algorithm running in an actual competition:
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
     <iframe src="//player.bilibili.com/player.html?aid=229312247&bvid=BV1Z8411f7Lm&cid=1149809346&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe>
 </div>
 
-## Jetson & YOLO
-Design of a road vehicle counting algorithm based on Jetson Nano and YOLOv4-tiny.
+## Jetson and YOLO
 
-- Utilizing TensorRT to achieve recognition frame rates above 18fps on edge devices with power consumption below 15W;
+A road vehicle-counting algorithm built on the Jetson Nano and YOLOv4-tiny.
 
-- Designing a data visualization interface based on the Node-RED framework".
+- Used TensorRT to reach over 18fps on the edge device while staying under 15W.
+- Built the data visualization interface on the Node-RED framework.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
     <iframe src="//player.bilibili.com/player.html?aid=911830540&bvid=BV1aM4y1e7cf&cid=1149805640&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe>

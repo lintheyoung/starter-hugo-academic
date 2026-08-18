@@ -1,11 +1,12 @@
 ---
-title: Deyang Lin (left)
-role: Full-stack hardware and software engineer / Algorithm engineer / Experienced in system solution design and implementation / Post-2000 generation
-bio: My academic research primarily focuses on point cloud perception, while the current direction of the studio mainly involves the design and development of educational robots, as well as the implementation of interactive art with dynamic interactions.
+title: Deyang Lin (first from left)
+role: Full-stack hardware & software engineer / Algorithm engineer / From mechanics and electronics to algorithms and mass production / Born in the 2000s
+bio: Building a consumer pest-control hardware company for global markets, after running a robotics studio; multi-camera 4D capture and reconstruction is a side project. Has a habit of building the equipment himself to get first-hand data.
 interests:
-  - Hardware design (mechanical design and embedded design)
-  - Software design (full-stack web development and IoT system architecture)
-  - Extensive 0-to-1 project experience, from idea, MVP, and engineering to team building and product launch
+  - Dynamic 4D reconstruction and multi-camera synchronized capture systems
+  - Hardware design (mechanical design, embedded design)
+  - Software design (full-stack web development, IoT system architecture)
+  - A lot of 0-to-1 projects — from the first idea and MVP through engineering, team building and shipping a product
 social:
   - icon: envelope
     icon_pack: fas
@@ -17,8 +18,8 @@ education:
   courses:
     - course: B.E. in Automation
       institution: Guangdong University of Technology
-      year: 2018～2022
-    - course: Recommended for admission to Jilin University's School of Mechanical and Aerospace Engineering in 2022. As the studio's business had already become very busy, I took a leave of absence shortly after enrollment and went all in on the studio. On leave from 2022 to 2023; withdrew in 2024 to continue building a new entrepreneurial direction.
+      year: 2018–2022
+    - course: Recommended for graduate admission to the School of Mechanical and Aerospace Engineering in 2022. By then the studio was already busy enough that I took leave shortly after enrolling and went all in on it — on leave 2022–2023, and withdrew in 2024 to keep building in a new direction.
       institution: Jilin University
 email: me@ldylab.cc
 superuser: true
