@@ -9,7 +9,7 @@ date_format: 2006 年 1 月
 experience:
   - title: C 端智能硬件创业创始人&CTO
     company: 出海 Pest Control 智能硬件创业项目
-    company_url: '/project/cstartup/'
+    company_url: '/zh/project/cstartup/'
     company_logo: ''
     location: 杭州 / 深圳
     date_start: '2024-04-01'
@@ -21,7 +21,7 @@ experience:
         * 作为创始人 + CTO，负责面向老鼠、蚊子等场景的 C 端智能消杀产品定义、样机设计与量产导入。
         * 搭建早期现场测试与多传感器数据采集系统，推进结构、电路、嵌入式、感知检测与安全策略的多轮验证。
         * 负责全球多地区 IoT 系统软硬件架构、App 方案和团队内部 AI 辅助软硬件协同开发流程。
-        * 推动[硬件 C 端 Pest Control 创业](/project/cstartup/)（2024～现在）从 B 端验证转向 C 端产品化与量产准备。
+        * 推动[硬件 C 端 Pest Control 创业](/zh/project/cstartup/)（2024～现在）从 B 端验证转向 C 端产品化与量产准备。
 
   - title: 机器人工作室联合创始人&CTO
     company: 广州市善悦信息科技有限公司
@@ -36,7 +36,7 @@ experience:
         * 完成机器人硬件与软件整体方案设计。
         * 在相同或接近硬件成本下，通过更好的软件、控制算法和系统设计提升机器人产品竞争力。
         * 为互动艺术项目实现动态视觉设计与感知检测能力。
-        * 完成[更好的电机驱动 DeDeMotor 产品化](/project/studio/#dedemotor)、[低成本低功耗 YOLO 摄像头 DeDeYOLO 的产品化](/project/studio/#dedeyolo)、[自动化打标签 Video2Tag Web 端上线](/project/studio/#video2tag)、[高性能 6 轴陀螺仪 DeDeIMU 的产品化](/project/studio/#dedeimu)。
+        * 完成[更好的电机驱动 DeDeMotor 产品化](/zh/project/studio/#dedemotor)、[低成本低功耗 YOLO 摄像头 DeDeYOLO 的产品化](/zh/project/studio/#dedeyolo)、[自动化打标签 Video2Tag Web 端上线](/zh/project/studio/#video2tag)、[高性能 6 轴陀螺仪 DeDeIMU 的产品化](/zh/project/studio/#dedeimu)。
 
   - title: 本科阶段相关经历
     company: 广东工业大学自动化学院

@@ -21,7 +21,7 @@ education:
       year: 2018–2022
     - course: Recommended for graduate admission to the School of Mechanical and Aerospace Engineering in 2022. By then the studio was already busy enough that I took leave shortly after enrolling and went all in on it — on leave 2022–2023, and withdrew in 2024 to keep building in a new direction.
       institution: Jilin University
-email: me@ldylab.cc
+email: deyanglin@hkust-gz.edu.cn
 superuser: true
 highlight_name: true
 ---

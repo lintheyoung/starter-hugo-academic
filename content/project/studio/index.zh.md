@@ -11,7 +11,7 @@ show_date: false
 tags:
   - studio
 aliases:
-  - /project/rm_controls/
+  - /zh/project/rm_controls/
 image:
   filename: featured.jpg
   focal_point: Top

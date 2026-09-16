@@ -21,7 +21,7 @@ education:
       year: 2018～2022
     - course: 2022 年保研到吉大机械与航空航天学院，不过那个时候工作室业务已经开始很忙，就入学一小段时间后休学后 all in 进去了，2022～2023 休学，2024 退学继续新方向的创业
       institution: 吉林大学
-email: me@ldylab.cc
+email: deyanglin@hkust-gz.edu.cn
 superuser: true
 highlight_name: true
 ---

@@ -8,6 +8,8 @@ featured: true
 authors:
   - Team captain and embedded developer (2018)
 show_date: false
+aliases:
+  - /en/project/sls/
 image:
   filename: featured.png
   focal_point: Top

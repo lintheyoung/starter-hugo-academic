@@ -24,7 +24,7 @@ date_format: Jan 2006
 experience:
   - title: Founder & CTO, consumer smart-hardware startup
     company: Pest Control smart hardware for global markets
-    company_url: '/en/project/cstartup/'
+    company_url: '/project/cstartup/'
     company_logo: ''
     location: Hangzhou / Shenzhen
     date_start: '2024-04-01'
@@ -36,7 +36,7 @@ experience:
         * As founder and CTO, led product definition, prototype design and mass-production introduction for consumer rodent- and mosquito-control devices.
         * Built the early field-testing and multi-sensor data-collection systems, and drove several validation rounds across mechanical structure, circuits, embedded systems, detection and safety strategy.
         * Led the global multi-region IoT hardware and software architecture, the app plan, and an internal AI-assisted workflow for hardware–software co-development.
-        * Drove the [consumer Pest Control hardware startup](/en/project/cstartup/) (2024–present) from B2B validation to consumer productization and mass-production readiness.
+        * Drove the [consumer Pest Control hardware startup](/project/cstartup/) (2024–present) from B2B validation to consumer productization and mass-production readiness.
 
   - title: Co-founder & CTO, robotics studio
     company: Guangzhou Shanyue Information Technology Co., Ltd.
@@ -51,7 +51,7 @@ experience:
         * Designed complete robot solutions, hardware and software.
         * Made the robots more competitive at the same or lower hardware cost, through better software, control algorithms and system design.
         * Built dynamic visual design and perception capabilities for interactive art installations.
-        * Productized [DeDeMotor, an improved motor driver](/en/project/studio/#dedemotor); [DeDeYOLO, a low-cost low-power YOLO camera](/en/project/studio/#dedeyolo); [Video2Tag, a web-based auto-labeling tool](/en/project/studio/#video2tag); and [DeDeIMU, a high-performance 6-axis gyroscope](/en/project/studio/#dedeimu).
+        * Productized [DeDeMotor, an improved motor driver](/project/studio/#dedemotor); [DeDeYOLO, a low-cost low-power YOLO camera](/project/studio/#dedeyolo); [Video2Tag, a web-based auto-labeling tool](/project/studio/#video2tag); and [DeDeIMU, a high-performance 6-axis gyroscope](/project/studio/#dedeimu).
 
   - title: Undergraduate experience
     company: School of Automation, Guangdong University of Technology

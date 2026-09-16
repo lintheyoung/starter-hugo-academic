@@ -11,6 +11,8 @@ show_date: false
 tags:
   - startup
   - hardware
+aliases:
+  - /en/project/cstartup/
 image:
   filename: featured.jpg
   focal_point: Center

@@ -10,6 +10,8 @@ authors:
 show_date: false
 tags:
   - pose_estimation
+aliases:
+  - /en/project/cheetah_ros/
 image:
   filename: featured.png
   focal_point: Top

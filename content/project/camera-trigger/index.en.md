@@ -10,6 +10,8 @@ authors:
 show_date: false
 tags:
   - robots_control
+aliases:
+  - /en/project/camera-trigger/
 image:
   filename: featured.png
   focal_point: Top

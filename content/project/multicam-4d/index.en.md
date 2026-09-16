@@ -17,6 +17,8 @@ links:
     name: Live 4DGS demo (browser)
     icon_pack: fas
     icon: play
+aliases:
+  - /en/project/multicam-4d/
 image:
   filename: featured.jpg
   focal_point: Center
